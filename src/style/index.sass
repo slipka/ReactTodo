@@ -1,0 +1,33 @@
+*
+::after
+::before	
+	box-sizing: border-box
+
+@font-face 
+  font-family: 'Roboto';
+  font-style: normal
+  font-weight: 400
+  src: local('Roboto-Regular'), url('../fonts/Roboto-Regular.woff2') format('woff2');
+
+@import "./variables.sass"
+@import "./function.sass"
+
+body 
+	margin: 0
+	padding: 0px
+	font-family: 'Roboto', sans-serif
+	font-weight: 400
+	font-size: $font-size
+	line-height: 1.5
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+
+
+
+.main
+	max-width: 800px
+	margin: 0px auto
+	display: grid
+	grid-template-columns: 200px 1fr
+
+@import "./aside.sass"
