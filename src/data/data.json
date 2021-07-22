@@ -1,0 +1,29 @@
+{
+	"main_item" : [
+		{
+			"name" : "Покупки",
+			"circle": "red",
+			"active": false
+		},
+		{
+			"name" : "Фронтенд",
+			"circle": "green",
+			"active": true
+		},
+		{
+			"name" : "Фильмы и сериалы",
+			"circle": "blue",
+			"active": false
+		},
+		{
+			"name" : "Книги",
+			"circle": "grey",
+			"active": false
+		},
+		{
+			"name" : "Личное",
+			"circle": "black",
+			"active": false
+		}
+	]
+}

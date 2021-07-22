@@ -61,6 +61,21 @@
 			left: 12px
 			margin-top: -5px
 
+		&--red::before
+			background-color: red
+
+		&--green::before
+			background-color: green
+
+		&--blue::before
+			background-color: blue
+
+		&--grey::before
+			background-color: grey
+
+		&--black::before 
+			background-color: black
+
 		&::after
 			content: ""
 			width: 10px
@@ -75,7 +90,8 @@
 			background-image: url("../icon/close.svg")
 			background-repeat: no-repeat
 			background-size: initial
-		&:hover 
+		&:hover,
+		&.active
 			background-color: #fff
 			box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.03)
 			&::after 
