@@ -1,0 +1,44 @@
+.button 
+	font-family: inherit
+	border: none
+	border-radius: 4px
+	background-color: transparent
+	padding: 10px 20px 10px 30px
+	position: relative
+	width: 100%
+	text-align: left
+	font-size: rem(14)
+	color: $grey
+	transition: background-color 0.3s linear, color 0.3s linear
+	cursor: pointer
+
+	&--todo 
+		padding-left: 38px
+
+		.button__icon 
+			left: 3px
+
+	&:hover 
+		background-color: #fff
+		box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.03)
+		color: $black
+
+	&__icon
+		position: absolute
+		top: 50%
+		left: 12px
+		transform: translateY(-50%)
+
+	&__svg 
+		display: block
+		stroke: $grey
+
+.button-edit 
+	border: none
+	background-color: transparent
+	padding: 0px
+	cursor: pointer
+
+	&__svg
+		display: block
+		fill: $grey

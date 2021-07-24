@@ -3,8 +3,6 @@ import data from '../data/data'
 
 const mainItems = data.main_item
 
-console.log(mainItems)
-
 function AsideList() {
 	return (
 		<aside className="aside">
@@ -24,6 +22,14 @@ function AsideList() {
 						</li>
 					))}
 				</ul> 
+				<button className="button">
+					<span className="button__icon">
+						<svg className="button__svg" width="10px" height="10px">
+							<use href={ sprite + "#addIcon" } />
+						</svg>
+					</span>
+						Добавить папку
+				</button>
 			</div>
 		</aside>
 	)

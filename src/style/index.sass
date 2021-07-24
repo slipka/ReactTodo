@@ -9,6 +9,12 @@
   font-weight: 400
   src: local('Roboto-Regular'), url('../fonts/Roboto-Regular.woff2') format('woff2');
 
+@font-face 
+  font-family: 'Roboto';
+  font-style: normal
+  font-weight: 700
+  src: local('Roboto-Bold'), url('../fonts/Roboto-Bold.woff2') format('woff2');
+
 @import "./variables.sass"
 @import "./function.sass"
 
@@ -23,12 +29,25 @@ body
 	-webkit-font-smoothing: antialiased
 	-moz-osx-font-smoothing: grayscale
 
-
-
 .main
 	max-width: 800px
 	margin: 0px auto
 	display: grid
 	grid-template-columns: 300px 1fr
 
-@import "./aside.sass"
+.title 
+	margin: 0px
+	display: flex
+	justify-content: flex-start
+	align-items: center
+
+	&__text 	
+		font-size: rem(32)
+		font-weight: 700
+		color: #64C4ED
+		margin-right: 10px
+
+@import "./button"
+@import "./aside"
+@import "./body"
+@import "./todo-list"

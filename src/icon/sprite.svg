@@ -5,4 +5,13 @@
 	<symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 10 10" id="close">
     <path d="M6.247 5L9.74 1.508A.883.883 0 008.492.258L5 3.75 1.508.26a.884.884 0 00-1.25 1.25L3.75 5 .26 8.492a.884.884 0 001.25 1.25L5 6.25l3.492 3.49a.884.884 0 001.25-1.25L6.246 5z" fill="#E3E3E3"></path>
   </symbol>
+	<symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 12" id="addIcon">
+    <path d="M6 1v10M1 6h10" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+  </symbol>
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" id="edit">
+    <path d="M0 12.05v2.533c0 .234.183.417.417.417H2.95a.39.39 0 00.291-.125l9.099-9.09L9.215 2.66l-9.09 9.09a.41.41 0 00-.125.3zm14.756-8.682a.829.829 0 000-1.175l-1.95-1.95a.83.83 0 00-1.174 0l-1.525 1.525 3.125 3.125 1.524-1.525z"></path>
+  </symbol>
+	<symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 11 11" id="delite">
+    <path d="M6.872 5.5l3.84-3.84A.97.97 0 109.342.284L5.5 4.125 1.66.285A.972.972 0 10.284 1.659L4.125 5.5.285 9.34a.972.972 0 101.374 1.375L5.5 6.875l3.84 3.84a.972.972 0 101.375-1.374L6.872 5.5z"></path>
+  </symbol>
 </svg>

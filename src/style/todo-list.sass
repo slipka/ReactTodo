@@ -1,0 +1,35 @@
+.todo-list
+	list-style: none
+	margin: 0px
+	padding: 0px
+
+	&__body
+		display: flex
+		justify-content: flex-start
+		align-items: center
+
+	&__check 
+		width: 20px
+		height: 20px
+		border-radius: 50%
+		border: 1px solid #E8E8E8
+		margin-right: 15px
+
+	&__text
+		font-size: rem(16px)
+		color: $black
+
+	&__button
+		margin-left: auto
+		border: none
+		padding: 0px
+		background-color: transparent
+		cursor: pointer
+
+		&:hover .todo-list__button-svg 
+			fill: $black
+
+	&__button-svg
+		display: block
+		fill: #E3E3E3
+		transition: fill 0.3s linear
